@@ -104,10 +104,10 @@ It should return a new POST item that looks like this:
 ```json
 {
   "item": {
-    "userId": "angie",
+    "userId": "Harry",
     "postId": "234",
     "createdAt": "2019-07-27T20:01:45.424Z",
-    "caption": "Beach",
+    "caption": "INA",
     "isPublic": "true",
     "attachmentUrl": "http://example.com/image.png"
   }
