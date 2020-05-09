@@ -31,10 +31,10 @@ It should return data that looks like this:
 {
   "items": [
     {
-      "userId": "cathy",
+      "userId": "catjackhy",
       "postId": "123",
       "createdAt": "2019-07-27T20:01:45.424Z",
-      "caption": "Doggo",
+      "caption": "Lovey Life",
       "isPublic": "false",
       "attachmentUrl": "http://example.com/image.png"
     }
@@ -50,10 +50,10 @@ It should return data that looks like this:
 {
   "item": [
     {
-      "userId": "cathy",
+      "userId": "jack",
       "postId": "123",
       "createdAt": "2019-07-27T20:01:45.424Z",
-      "caption": "Doggo",
+      "caption": "Love My Life",
       "isPublic": "false",
       "attachmentUrl": "http://example.com/image.png"
     }
@@ -69,18 +69,18 @@ It should return data that looks like this:
 {
   "items": [
     {
-      "userId": "cathy",
+      "userId": "Jack",
       "postId": "123",
       "createdAt": "2019-07-27T20:01:45.424Z",
-      "caption": "Doggo",
+      "caption": "Love my Life",
       "isPublic": "true",
       "attachmentUrl": "http://example.com/image.png"
     },
-    {
-      "userId": "angie",
-      "postId": "234",
+    
+      "userId": "Atual",
+      "postId": "4",
       "createdAt": "2019-07-27T20:01:45.424Z",
-      "caption": "Beach",
+      "caption": "Work Hard",
       "isPublic": "true",
       "attachmentUrl": "http://example.com/image.png"
     }
