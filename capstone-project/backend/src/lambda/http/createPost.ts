@@ -7,7 +7,7 @@ import { cors } from 'middy/middlewares';
 import { createLogger } from '../../utils/logger';
 import { getUserId } from '../utils'
 import { ResponseHelper } from '../../helpers/responseHelper'
-
+// Create Post by user
 const logger = createLogger ('Create Post')
 const apiResponseHelper = new ResponseHelper()
 
