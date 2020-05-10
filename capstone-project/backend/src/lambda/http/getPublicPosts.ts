@@ -5,7 +5,7 @@ import { cors } from 'middy/middlewares';
 import { createLogger } from '../../utils/logger';
 import { GetPublicPosts } from '../../businessLogic/posts'
 import { ResponseHelper } from '../../helpers/responseHelper'
-
+// API for the  the all public post
 const logger = createLogger ('Get Public Posts')
 const apiResponseHelper = new ResponseHelper()
 
