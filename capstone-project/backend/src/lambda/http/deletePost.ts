@@ -16,7 +16,7 @@ export const handler = middy(
         logger.info("Processing event: " + event)
 
         const postId = event.pathParameters.postId
-        //Remove a post by id
+        //DeletePost  by id
         const userId = getUserId(event)
 
         try {
