@@ -15,7 +15,7 @@ export const handler =  middy(
         try{
             logger.info('Processing event: ', event)
             const postId = event.pathParameters.postId
-            //Return a presigned URL to upload a file for a post with the provided id
+            //Return a presigned URL to upload a file
             const signedUploadUrl = await GenerateUploadUrl(postId)
 
             return apiResponseHelper.generateSuccessRespose(200, 'uploadUrl', signedUploadUrl)
